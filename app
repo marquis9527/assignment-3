@@ -6,7 +6,7 @@ import plotly.express as px
 import pandas as pd
 
 data_url = (
-    "https://github.com/marquis9527/assignment-3/blob/main/data.csv"
+    "./data.csv"
 )
 df_all = pd.read_csv(data_url)
 # initial Dash
